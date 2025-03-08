@@ -172,7 +172,7 @@ def train_model():
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2, verbose=True)
 
     # ----- Training Setup -----
-    num_epochs = 10
+    num_epochs = 20
     batch_size = 64
     log_interval = 10
 
